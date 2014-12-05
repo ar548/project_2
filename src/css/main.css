@@ -141,6 +141,27 @@ p {
   padding-right:43px;
 }
 
+#wrapper {
+  width:960px;
+  background-color:#EEEEEE;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+#content {
+
+}
+
+#sidebar {
+
+}
+
+#footer {
+  
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
