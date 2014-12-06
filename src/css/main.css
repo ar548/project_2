@@ -122,7 +122,21 @@ p {
 }
 
 #header {
-  width:100%;
+  width:960px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:0px;
+  padding:0px;
+}
+
+#header.logo {
+  float:left;
+  height:104;
+  width:87;
+  padding:5px;
+  margin-left:3px;
+  margin-right:3px;
+  margin-bottom:0px;
 }
 
 #menu {
@@ -132,6 +146,7 @@ p {
   line-height:50px;
   width:100%;
   background-color:#5BA0C6;
+  margin-top:0px;
 }
 
 #menu ul li{
@@ -154,6 +169,10 @@ p {
   float:left;
   background-color:#EDEDED;
   width:593px;
+}
+
+#video {
+  text-align:center;
 }
 
 #sidebar {
