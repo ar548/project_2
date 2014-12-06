@@ -103,6 +103,7 @@ h2 {
 
 h3 {
   font-size:180%;
+  margin:0px;
 }
 
 h4 {
@@ -119,6 +120,10 @@ h6 {
 
 p {
   font-size:16px;
+}
+
+p.first {
+  margin-top:0px;
 }
 
 #header {
@@ -162,13 +167,13 @@ p {
   margin:0px;
   margin-left:auto;
   margin-right:auto;
-
 }
 
 #content {
   float:left;
   background-color:#EDEDED;
-  width:593px;
+  width:553px;
+  padding:20px;
 }
 
 #video {
@@ -187,8 +192,56 @@ p {
   background-color:#DDDDDD;
 }
 
-
 /* ==========================================================================
+ * for the forms sheet
+ * ==========================================================================*/
+
+#register-form {
+  background: /*url("form-fieldset.gif")*/ repeat-x scroll left bottom #F8FDEF;
+  border: 1px solid #DFDCDC;
+  border-radius: 15px 15px 15px 15px;
+  display: inline-block;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 25px 50px 10px;
+  width: 385px;
+}
+#register-form .fieldgroup {
+  background: /*url("form-divider.gif")*/ repeat-x scroll left top transparent;
+  display: inline-block;
+  padding: 8px 10px;
+  width: 340px;
+}
+#register-form .fieldgroup label {
+  float: left;
+  padding: 15px 0 0;
+  text-align: right;
+  width: 110px;
+}
+#register-form .fieldgroup input, #register-form .fieldgroup select {
+  float: right;
+  margin: 10px 0;
+  height: 25px;
+}
+#register-form .fieldgroup textarea{
+  float:right;
+  margin: 10px 0;
+}
+#register-form .submit {
+  padding: 10px;
+  width: 220px;
+  height: 40px !important;
+}
+#register-form .fieldgroup label.error {
+  color: #FB3A3A;
+  display: inline-block;
+  margin: 4px 0 5px 125px;
+  padding: 0;
+  text-align: left;
+  width: 220px;
+}
+ /*==========================================================================
    Helper classes
    ========================================================================== */
 
