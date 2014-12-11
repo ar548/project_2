@@ -147,6 +147,11 @@ p.first {
   margin-bottom:0px;
 }
 
+#header.title{
+  margin-right:175px;
+  margin left:87px;
+}
+
 #menu {
   clear:both;
   text-align:center;
