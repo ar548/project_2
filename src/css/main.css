@@ -190,14 +190,23 @@ p.first {
 
 #sidebar {
   float:left;
-  background-color:#DEDEDE;
+  background-color:#27808E;
+  border:1px #27808E solid;
+  border-radius:10px;
   text-align:center;
-  width:367px;
+  width:325px;
+  margin:20px;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+#sidebar img {
+  width:289px;
 }
 
 #footer {
   clear:both;
-  background-color:#DDDDDD;
+  background-color:#C6C6C6;
 }
 
 /* ==========================================================================
