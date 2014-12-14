@@ -11,7 +11,8 @@
 			email: true
 		    },
 		    comments: {
-			required: true
+			required: true,
+			notEqual: "Enter your comments here..."
 		    }
 		},
 		messages: {
@@ -19,6 +20,7 @@
 			lastname: "Please enter your lastname",
 			comments: {
 				required: "Please provide a comments",
+				notEqual: "Come on man! You actually need to enter some comments."
 			},
 			email: "Please enter a valid email address",
 		},
@@ -32,3 +34,7 @@ $(D).ready(function($) {
 	JQUERY4U.UTIL.setupFormValidation();
 	});
 })(jQuery, window, document);
+
+jQuery.validator.addMethod("notEqual", function(value, element, param) {
+  return this.optional(element) || value != param;
+});
